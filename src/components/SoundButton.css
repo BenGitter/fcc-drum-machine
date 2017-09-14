@@ -1,0 +1,20 @@
+.SoundButton{
+  width: calc(33% - 20px); 
+  background: black;
+  display: inline-block;
+  margin: 10px;
+  box-sizing: border-box;
+  height: 50px;
+  color: rgb(132,0,0);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.SoundButton:active{
+  color: rgb(194,14,10);
+}
